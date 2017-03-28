@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="983" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="634" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="resumo_view">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Resumo">
+                <Property name="tabTitle" type="java.lang.String" value="Resumo"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="968" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="584" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="veiculo_tab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Veiculo">
+                <Property name="tabTitle" type="java.lang.String" value="Veiculo"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="veiculo_pesquisa">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Pesquisa">
+                    <Property name="tabTitle" type="java.lang.String" value="Pesquisa"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="painel" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="painel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="painel">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="VeiculoPesquisaResultado_container" alignment="0" pref="963" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="veiculoPesquisaAno_ano" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="veiculoPesquisaAno_botao" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="veiculoPesquisaPlaca_letra" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="veiculoPesquisaPlaca_hifen" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="veiculoPesquisaPlaca_numero" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="veiculoPesquisaPlaca_botao" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="veiculoPesquisaModelo_modelo" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaFabricante_fabricante" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="veiculoPesquisaFabricante_botao" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="veiculoPesquisaModelo_botao" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                      <Component id="veiculoPesquisaCombustivel_combustivel" min="-2" pref="114" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="veiculoPesquisaCombustivel_botao" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="veiculoPesquisaLista_Todos" min="-2" pref="214" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="veiculoPesquisaPlaca_letra" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaPlaca_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaPlaca_numero" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaPlaca_hifen" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaModelo_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaCombustivel_combustivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaCombustivel_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaModelo_modelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="veiculoPesquisaAno_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaAno_ano" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaFabricante_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaFabricante_fabricante" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaLista_Todos" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="VeiculoPesquisaResultado_container" pref="468" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextField" name="veiculoPesquisaPlaca_letra">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaPlaca_letraActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="veiculoPesquisaPlaca_hifen">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="veiculoPesquisaPlaca_numero">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaPlaca_numeroActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="veiculoPesquisaPlaca_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Placa"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaPlaca_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="veiculoPesquisaModelo_modelo">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaModelo_modeloActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="veiculoPesquisaModelo_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Modelo"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaModelo_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="veiculoPesquisaCombustivel_combustivel">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Gasolina"/>
+                            <StringItem index="1" value="&#xc1;lcool"/>
+                            <StringItem index="2" value="Flex"/>
+                            <StringItem index="3" value="Diesel"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="veiculoPesquisaCombustivel_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Combustivel"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaCombustivel_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="veiculoPesquisaAno_ano">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaAno_anoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="veiculoPesquisaAno_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ano"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaAno_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="veiculoPesquisaFabricante_fabricante">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaFabricante_fabricanteActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="veiculoPesquisaFabricante_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fabricante"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaFabricante_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="VeiculoPesquisaResultado_container">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="VeiculoPesquisaResultado_table">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                              <Connection code="new javax.swing.table.DefaultTableModel(&#xa;    new Object[][]{},&#xa;    new String [] {&#xa;        &quot;Placa&quot;, &quot;Fabricante&quot;, &quot;Modelo&quot;, &quot;Ano&quot;, &quot;Combust&#xed;vel&quot;, &quot;Od&#xf4;metro&quot;&#xa;    }&#xa;)" type="code"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="veiculoPesquisaLista_Todos">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Listar Todos"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaLista_TodosActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="veiculo_cadastro">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Cadastro">
+                    <Property name="tabTitle" type="java.lang.String" value="Cadastro"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="botao_cadastrarVeiculo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="veiculoCadastroOdometro_odometro" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="veiculoCadastroPlaca_letra" min="-2" pref="60" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                          <Component id="veiculoCadastroPlaca_hifen" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="veiculoCadastroPlaca_numero" min="-2" pref="60" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="veiculoCadastroAno_ano" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="labe_placa" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labe__ano" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="veiculoCadastroModelo_modelo" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                              <Component id="veiculoCadastroFabricante_fabricante" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                                  <Component id="labe_modelo" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="labe_fabricante" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="veiculoCadastroTanque_capacidade" pref="130" max="32767" attributes="0"/>
+                                              <Component id="veiculoCadastroCombustivel_combustivel" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="label_tipoDeCombustivel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labe_fabricante1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="labe_fabricante2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="255" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="veiculoCadastroPlaca_letra" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="veiculoCadastroPlaca_numero" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="veiculoCadastroPlaca_hifen" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="veiculoCadastroCombustivel_combustivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="veiculoCadastroModelo_modelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_placa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_modelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label_tipoDeCombustivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="veiculoCadastroAno_ano" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="veiculoCadastroFabricante_fabricante" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe__ano" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="veiculoCadastroTanque_capacidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="veiculoCadastroOdometro_odometro" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="botao_cadastrarVeiculo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="423" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="veiculoCadastroPlaca_letra">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoCadastroPlaca_letraActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="veiculoCadastroPlaca_hifen">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="veiculoCadastroPlaca_numero">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoCadastroPlaca_numeroActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="veiculoCadastroModelo_modelo">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoCadastroModelo_modeloActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="veiculoCadastroAno_ano">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoCadastroAno_anoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="veiculoCadastroCombustivel_combustivel">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Gasolina"/>
+                        <StringItem index="1" value="&#xc1;lcool"/>
+                        <StringItem index="2" value="Flex"/>
+                        <StringItem index="3" value="Diesel"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="veiculoCadastroFabricante_fabricante">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoCadastroFabricante_fabricanteActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_placa">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Placa"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_modelo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Modelo"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fabricante"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe__ano">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ano"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="label_tipoDeCombustivel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tipo de Combustivel"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Od&#xf4;metro"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="veiculoCadastroOdometro_odometro">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoCadastroOdometro_odometroActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="botao_cadastrarVeiculo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastrar Ve&#xed;culo"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_cadastrarVeiculoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="veiculoCadastroTanque_capacidade">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoCadastroTanque_capacidadeActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Capacidade do tanque"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="veiculo_relatorio">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Relat&#xf3;rio">
+                    <Property name="tabTitle" type="java.lang.String" value="Relat&#xf3;rio"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="963" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="556" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="abastecimento_tab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Abastecimento">
+                <Property name="tabTitle" type="java.lang.String" value="Abastecimento"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="abatecimento_pesquisa">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Pesquisa">
+                    <Property name="tabTitle" type="java.lang.String" value="Pesquisa"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel4">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="abastecimentoPesquisaResultado_container" alignment="0" pref="963" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="abastecimentoPesquisaAno_ano" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoPesquisaAno_botao" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="abastecimentoPesquisaPlaca_letra" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoloPesquisaPlaca_hifen" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="abastecimentoPesquisaPlaca_numero" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="abasstecimentoPesquisaPlaca_botao" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="abastecimentoPesquisaModelo_modelo" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaFabricante_fabricante" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="abastecimentoPesquisaFabricante_botao" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaModelo_botao" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoPesquisaCombustivel_combustivel" min="-2" pref="114" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="abastecimentoPesquisaCombustivel_botao" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="veiculoPesquisaLista_Todos2" min="-2" pref="214" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="abastecimentoPesquisaPlaca_letra" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abasstecimentoPesquisaPlaca_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaPlaca_numero" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoloPesquisaPlaca_hifen" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaModelo_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaCombustivel_combustivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaCombustivel_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaModelo_modelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="abastecimentoPesquisaAno_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaAno_ano" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaFabricante_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoPesquisaFabricante_fabricante" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="veiculoPesquisaLista_Todos2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="abastecimentoPesquisaResultado_container" pref="468" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextField" name="abastecimentoPesquisaPlaca_letra">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaPlaca_letraActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="abastecimentoloPesquisaPlaca_hifen">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="abastecimentoPesquisaPlaca_numero">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaPlaca_numeroActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abasstecimentoPesquisaPlaca_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Placa"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="abastecimentoPesquisaModelo_modelo">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaModelo_modeloActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoPesquisaModelo_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Modelo"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaModelo_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="abastecimentoPesquisaCombustivel_combustivel">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Gasolina"/>
+                            <StringItem index="1" value="&#xc1;lcool"/>
+                            <StringItem index="2" value="Flex"/>
+                            <StringItem index="3" value="Diesel"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoPesquisaCombustivel_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Combustivel"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaCombustivel_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="abastecimentoPesquisaAno_ano">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaAno_anoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoPesquisaAno_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ano"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaAno_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="abastecimentoPesquisaFabricante_fabricante">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaFabricante_fabricanteActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoPesquisaFabricante_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fabricante"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoPesquisaFabricante_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="abastecimentoPesquisaResultado_container">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="abastecimentoPesquisaResultado_table">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                              <Connection code="new javax.swing.table.DefaultTableModel(&#xa;    new Object[][]{},&#xa;    new String [] {&#xa;        &quot;Placa&quot;, &quot;tipo&quot;, &quot;data&quot;,&quot;odometro&quot;,&quot;quantidade&quot;, &quot;total&quot;, &quot;preco/litro&quot;&#xa;    }&#xa;)" type="code"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="veiculoPesquisaLista_Todos2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Listar Todos"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="veiculoPesquisaLista_Todos2ActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="abatecimento_cadastro">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Cadastro">
+                    <Property name="tabTitle" type="java.lang.String" value="Cadastro"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="37" pref="41" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="abastecimentoCadastroValorAbastecido_valor" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="labe_fabricante5" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="abastecimentoCadastroOdometro_odometro" min="-2" pref="138" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="labe_fabricante3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="abastecimentoCadastroQuantidadeAbastecida_quantidade" min="-2" pref="138" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="labe_fabricante4" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="abastecimentoCadastroTipoDeCombustivel_combustivel" alignment="0" min="-2" pref="114" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroInicioDeSerie_checkbox" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="label_tipoDeCombustivel1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="AbastecimentoCadastroData_dia" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="labe_fabricante6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="AbastecimentoCadastroData_mes" min="-2" pref="37" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="labe_fabricante7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="AbastecimentoCadastroData_ano" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="labe_fabricante8" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="AbastecimentoCadastroData_hora" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="labe_fabricante9" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="abastecimentoCadastroBotao_botao" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="AbastecimentoCadastroData_min" min="-2" pref="43" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="labe_fabricante10" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="354" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="abastecimentoCadastroOdometro_odometro" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abastecimentoCadastroTipoDeCombustivel_combustivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label_tipoDeCombustivel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="abastecimentoCadastroQuantidadeAbastecida_quantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abastecimentoCadastroInicioDeSerie_checkbox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="abastecimentoCadastroValorAbastecido_valor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="AbastecimentoCadastroData_dia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbastecimentoCadastroData_mes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbastecimentoCadastroData_ano" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbastecimentoCadastroData_hora" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbastecimentoCadastroData_min" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="labe_fabricante10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="abastecimentoCadastroBotao_botao" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel5">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="abastecimentoCadastroResultado_container" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="abastecimentoCadastroAno_ano" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroAno_botao" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="abastecimentoCadastroPlaca_letra" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoloCadastroPlaca_hifen" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroPlaca_numero" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroPlaca_botao" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="abastecimentoCadastroModelo_modelo" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoCadastroFabricante_fabricante" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="abastecimentoCadastroFabricante_botao" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="abastecimentoCadastroModelo_botao" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroCombustivel_combustivel" min="-2" pref="114" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroCombustivel_botao" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroListaTodos" min="-2" pref="214" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="abastecimentoCadastroPlaca_letra" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoCadastroPlaca_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoCadastroPlaca_numero" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoloCadastroPlaca_hifen" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoCadastroModelo_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoCadastroCombustivel_combustivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoCadastroCombustivel_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abastecimentoCadastroModelo_modelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="abastecimentoCadastroListaTodos" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="abastecimentoCadastroAno_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroAno_ano" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroFabricante_botao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abastecimentoCadastroFabricante_fabricante" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="abastecimentoCadastroResultado_container" pref="111" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextField" name="abastecimentoCadastroPlaca_letra">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroPlaca_letraActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="abastecimentoloCadastroPlaca_hifen">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="abastecimentoCadastroPlaca_numero">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroPlaca_numeroActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoCadastroPlaca_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Placa"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroPlaca_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="abastecimentoCadastroModelo_modelo">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroModelo_modeloActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoCadastroModelo_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Modelo"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroModelo_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="abastecimentoCadastroCombustivel_combustivel">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Gasolina"/>
+                            <StringItem index="1" value="&#xc1;lcool"/>
+                            <StringItem index="2" value="Flex"/>
+                            <StringItem index="3" value="Diesel"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoCadastroCombustivel_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Combustivel"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroCombustivel_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="abastecimentoCadastroAno_ano">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroAno_anoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoCadastroAno_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ano"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroAno_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="abastecimentoCadastroFabricante_fabricante">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroFabricante_fabricanteActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="abastecimentoCadastroFabricante_botao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fabricante"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroFabricante_botaoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="abastecimentoCadastroResultado_container">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="abastecimentoCadastroResultado_table">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                              <Connection code="new javax.swing.table.DefaultTableModel(&#xa;    new Object[][]{},&#xa;    new String [] {&#xa;        &quot;Placa&quot;, &quot;tipo&quot;, &quot;data&quot;,&quot;ano&quot;,&quot;quantidade&quot;, &quot;odometro&quot;&#xa;    }&#xa;)" type="code"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="abastecimentoCadastroListaTodos">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Listar Todos"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroListaTodosActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="labe_fabricante3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Od&#xf4;metro"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="abastecimentoCadastroOdometro_odometro">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroOdometro_odometroActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="abastecimentoCadastroTipoDeCombustivel_combustivel">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Gasolina&quot;, &quot;&#xc1;lcool&quot;, &quot;Diesel&quot; })" type="code"/>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="label_tipoDeCombustivel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tipo de Combustivel"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="abastecimentoCadastroBotao_botao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastrar Abastecimento"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroBotao_botaoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quantidade Abastecida"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="abastecimentoCadastroQuantidadeAbastecida_quantidade">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroQuantidadeAbastecida_quantidadeActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="abastecimentoCadastroValorAbastecido_valor">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroValorAbastecido_valorActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Valor Abastecido"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="abastecimentoCadastroInicioDeSerie_checkbox">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="In&#xed;cio de S&#xe9;rie"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abastecimentoCadastroInicioDeSerie_checkboxActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="dia"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="AbastecimentoCadastroData_dia">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbastecimentoCadastroData_diaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="AbastecimentoCadastroData_mes">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbastecimentoCadastroData_mesActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="m&#xea;s"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="AbastecimentoCadastroData_ano">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbastecimentoCadastroData_anoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ano"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="AbastecimentoCadastroData_hora">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbastecimentoCadastroData_horaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="hora"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="AbastecimentoCadastroData_min">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbastecimentoCadastroData_minActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labe_fabricante10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="min"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
